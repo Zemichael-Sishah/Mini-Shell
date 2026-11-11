@@ -15,4 +15,4 @@ for f in "${FILES[@]}"; do
 done
 
 # tar them with the COPY_DISABLE=1 argument to exclude garbage metadata
-COPY_DISABLE=1 tar -cvf handin.tgz "${FILES[@]}"
+# COPY_DISABLE=1 tar -cvf handin.tgz "${FILES[@]}"
